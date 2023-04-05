@@ -1,1 +1,24 @@
 /*  your css code here. If applicable */
+/* .before{
+	color:rgb(255,0,0);
+}
+.after{
+	color:rgb(255,0,0);
+} */
+
+div::before {
+	content:"Before Element";
+	color: red;
+	font-weight: bold;
+	font-size: larger;
+}
+
+div::after {
+	content:"After Element";
+	color: red;
+	font-weight: bold;
+	font-size: larger;
+}
+	
+	
+}
